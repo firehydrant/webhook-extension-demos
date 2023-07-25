@@ -1,0 +1,29 @@
+{
+  "data": {
+      "callback": {
+          "expiration": "2023-07-25T02:14:35Z",
+          "url": "https://example.com"
+      },
+      "command_arguments": [
+          "default",
+          "nginx-deployment"
+      ],
+      "command_extension": {
+          "description": "Restarts kubernetes deployments",
+          "id": "f0fe8133-9fdd-4c65-83cc-6b574dff234f",
+          "name": "restart-deployment"
+      },
+      "firehydrant_user": {
+          "email": "patchy@firehydrant.io",
+          "id": "f20bc983-11f3-48f1-a880-ccd3f6e7309f",
+          "name": "Patch McPatches III",
+          "source": "firehydrant_user"
+      },
+      "payload": {},
+      "payload_type": "json"
+  },
+  "event": {
+      "operation": "CREATED",
+      "resource_type": "command_extension"
+  }
+}
